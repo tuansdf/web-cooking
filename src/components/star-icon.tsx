@@ -8,7 +8,7 @@ export const StarIcon = (restProps: Props) => {
       viewBox="0 0 14 13"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      style={{ color: "red", width: "1rem", height: "1rem" }}
+      style={{ color: "red", width: "0.875rem", height: "0.875rem" }}
       {...restProps}
     >
       <path

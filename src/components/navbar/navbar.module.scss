@@ -1,10 +1,13 @@
 .nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1.625rem 6rem;
-  gap: 6rem;
   box-shadow: 0 0.5rem 0.5rem hsla(0, 0, 0, 0.1);
+
+  &-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1.625rem 0;
+    gap: 6rem;
+  }
 
   &-left {
     flex: none;

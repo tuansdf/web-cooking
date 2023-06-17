@@ -13,10 +13,10 @@
 
   &.is-active,
   &:hover {
-    color: #559490;
+    color: var(--color-primary);
   }
 
   &.is-active {
-    --border-color: #559490;
+    --border-color: var(--color-primary);
   }
 }

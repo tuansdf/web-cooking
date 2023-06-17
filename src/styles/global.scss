@@ -1,9 +1,11 @@
+:root {
+  --color-primary: #559490;
+}
 body {
   min-height: 100vh;
   min-height: 100dvh;
   max-width: 1440px;
   margin-inline: auto;
-  outline: 1px solid #000;
 }
 
 * {
