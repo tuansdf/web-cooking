@@ -1,0 +1,26 @@
+.input-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.input {
+  padding: 0.5rem 2rem;
+  padding-left: 3rem;
+  width: 100%;
+  border-radius: 9999px;
+  border: none;
+  box-shadow: 0rem 0.5rem 1rem hsla(0, 0, 0, 0.1);
+  color: hsla(0, 0, 0, 0.7);
+  font-size: 0.75rem;
+}
+
+.icon {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 9999px;
+  left: 1rem;
+  background-color: hsla(0, 0, 0, 0.2);
+}

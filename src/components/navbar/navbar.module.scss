@@ -1,0 +1,21 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.625rem 6rem;
+  gap: 6rem;
+  box-shadow: 0 0.5rem 0.5rem hsla(0, 0, 0, 0.1);
+
+  &-left {
+    flex: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  &-right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+  }
+}

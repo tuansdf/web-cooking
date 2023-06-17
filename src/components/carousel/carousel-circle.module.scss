@@ -1,0 +1,14 @@
+.circle {
+  --size: 0.625rem;
+  --background-color: rgba(255, 255, 255, 0.2);
+  width: var(--size);
+  height: var(--size);
+  border-radius: 9999px;
+  background-color: var(--background-color);
+  transition-property: width height background-color;
+
+  &.is-active {
+    --size: 1rem;
+    --background-color: #fff;
+  }
+}

@@ -1,0 +1,22 @@
+.navbar-item {
+  --border-color: transparent;
+
+  padding: 0.3rem 1rem;
+  border-bottom: 0.25rem solid var(--border-color);
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  text-align: center;
+  cursor: pointer;
+  transition-property: border-color color;
+  transition-duration: 150ms;
+  transition-timing-function: ease-in;
+
+  &.is-active,
+  &:hover {
+    color: #559490;
+  }
+
+  &.is-active {
+    --border-color: #559490;
+  }
+}
